@@ -49,14 +49,5 @@
     * **Lower Temperature (0.7):** Makes the model more confident, leading to realistic names like `brilani`, `kona`, and `anah`.
     * **Higher Temperature:** Increases creativity but can lead to more "gibberish" or abstract sounds.
     
-    ## How to Run
-    Ensure you have Python 3 installed, then run:
-    ```bash
-    python microgpt4added.py
-    ```
-    
-    ---
-    
-    ### Verification Note
-    As verified in the project Colab, the model successfully reaches the **1.7 loss target** (e.g., reaching 1.68 at step 530), confirming that all architectural changes are mathematically sound and backpropagating correctly.
+
     
